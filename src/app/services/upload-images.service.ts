@@ -1,6 +1,9 @@
 import { Injectable } from '@angular/core';
+
+// Import for FireStore and FireStorage
 import { AngularFirestore } from '@angular/fire/firestore';
 import { AngularFireStorage } from '@angular/fire/storage';
+
 import { finalize } from 'rxjs/operators';
 import { FileItemModel } from '../models/file-item/file-item.model';
 
