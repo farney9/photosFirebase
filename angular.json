@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/hover.css/css/hover-min.css"
             ],
             "scripts": []
           },
@@ -116,9 +117,16 @@
               "devServerTarget": "photosFirebase:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "photosFirebase"
+  "defaultProject": "photosFirebase",
+  "cli": {
+    "analytics": false
+  }
 }

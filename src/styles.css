@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+/* Drop Zone */
+.drop-zone { 
+	border: dotted 3px lightgray; 
+	opacity: 0.5; 
+	color: #666; 
+	text-align: center 
+}
+
+.file-hover { 
+	border: dotted 5px dodgerblue; 
+}
+.text-green { 
+	color: green ;
+	font-weight: bold;
+}
